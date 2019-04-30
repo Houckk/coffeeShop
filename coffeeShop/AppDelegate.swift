@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import Firebase
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    //api Key : 033c48e50cc9dca022c4b5aa3f83b0dd 
 
     var window: UIWindow?
 

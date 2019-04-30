@@ -12,9 +12,17 @@
 		A8E8268522773E8C00B1EE31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8E8268322773E8C00B1EE31 /* Main.storyboard */; };
 		A8E8268722773E9000B1EE31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8E8268622773E9000B1EE31 /* Assets.xcassets */; };
 		A8E8268A22773E9000B1EE31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8E8268822773E9000B1EE31 /* LaunchScreen.storyboard */; };
+		A8E82692227745B600B1EE31 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E82691227745B600B1EE31 /* Food.swift */; };
+		A8E8269422774BC300B1EE31 /* foodDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E8269322774BC300B1EE31 /* foodDetail.swift */; };
+		A8E8269622774F0900B1EE31 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E8269522774F0900B1EE31 /* Review.swift */; };
+		A8FC5339227754BA00642238 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FC5338227754BA00642238 /* DetailViewController.swift */; };
+		A8FC533B22775B2C00642238 /* SplashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FC533A22775B2C00642238 /* SplashScreenViewController.swift */; };
+		A8FC533D22775C3600642238 /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8FC533C22775C3600642238 /* Reviews.swift */; };
+		EF03553FBBCA2C5F07176405 /* Pods_coffeeShop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC89A052A352C71A7E4D9395 /* Pods_coffeeShop.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7901D2D27C601A9DEB39E4AD /* Pods-coffeeShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffeeShop.release.xcconfig"; path = "Target Support Files/Pods-coffeeShop/Pods-coffeeShop.release.xcconfig"; sourceTree = "<group>"; };
 		A8E8267C22773E8C00B1EE31 /* coffeeShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coffeeShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8E8267F22773E8C00B1EE31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8E8268122773E8C00B1EE31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,14 @@
 		A8E8268622773E9000B1EE31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8E8268922773E9000B1EE31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8E8268B22773E9000B1EE31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8E82691227745B600B1EE31 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		A8E8269322774BC300B1EE31 /* foodDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodDetail.swift; sourceTree = "<group>"; };
+		A8E8269522774F0900B1EE31 /* Review.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		A8FC5338227754BA00642238 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A8FC533A22775B2C00642238 /* SplashScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenViewController.swift; sourceTree = "<group>"; };
+		A8FC533C22775C3600642238 /* Reviews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
+		BA2F7A784075F263CE6076D3 /* Pods-coffeeShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coffeeShop.debug.xcconfig"; path = "Target Support Files/Pods-coffeeShop/Pods-coffeeShop.debug.xcconfig"; sourceTree = "<group>"; };
+		FC89A052A352C71A7E4D9395 /* Pods_coffeeShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_coffeeShop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF03553FBBCA2C5F07176405 /* Pods_coffeeShop.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74718F7F6DF786FF1580488A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA2F7A784075F263CE6076D3 /* Pods-coffeeShop.debug.xcconfig */,
+				7901D2D27C601A9DEB39E4AD /* Pods-coffeeShop.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8C52B4D9923F1C2D73B94484 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC89A052A352C71A7E4D9395 /* Pods_coffeeShop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A8E8267322773E8C00B1EE31 = {
 			isa = PBXGroup;
 			children = (
 				A8E8267E22773E8C00B1EE31 /* coffeeShop */,
 				A8E8267D22773E8C00B1EE31 /* Products */,
+				74718F7F6DF786FF1580488A /* Pods */,
+				8C52B4D9923F1C2D73B94484 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +91,12 @@
 			isa = PBXGroup;
 			children = (
 				A8E8267F22773E8C00B1EE31 /* AppDelegate.swift */,
+				A8E82691227745B600B1EE31 /* Food.swift */,
+				A8E8269322774BC300B1EE31 /* foodDetail.swift */,
+				A8E8269522774F0900B1EE31 /* Review.swift */,
+				A8FC533C22775C3600642238 /* Reviews.swift */,
+				A8FC533A22775B2C00642238 /* SplashScreenViewController.swift */,
+				A8FC5338227754BA00642238 /* DetailViewController.swift */,
 				A8E8268122773E8C00B1EE31 /* ViewController.swift */,
 				A8E8268322773E8C00B1EE31 /* Main.storyboard */,
 				A8E8268622773E9000B1EE31 /* Assets.xcassets */,
@@ -71,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8E8268E22773E9000B1EE31 /* Build configuration list for PBXNativeTarget "coffeeShop" */;
 			buildPhases = (
+				E74F0CE1C5B85C78A5D32C1E /* [CP] Check Pods Manifest.lock */,
 				A8E8267822773E8C00B1EE31 /* Sources */,
 				A8E8267922773E8C00B1EE31 /* Frameworks */,
 				A8E8267A22773E8C00B1EE31 /* Resources */,
+				45CF07F2F9164817063B77C1 /* [CP] Embed Pods Frameworks */,
+				0C205F8E563A378D6EA3588D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +175,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C205F8E563A378D6EA3588D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-coffeeShop/Pods-coffeeShop-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAnonymousAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseEmailAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebasePhoneAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseTwitterAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAnonymousAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseEmailAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebasePhoneAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseTwitterAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-coffeeShop/Pods-coffeeShop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45CF07F2F9164817063B77C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-coffeeShop/Pods-coffeeShop-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC/openssl_grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-C++/grpcpp.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl_grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpcpp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-coffeeShop/Pods-coffeeShop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E74F0CE1C5B85C78A5D32C1E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-coffeeShop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A8E8267822773E8C00B1EE31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8E8269622774F0900B1EE31 /* Review.swift in Sources */,
 				A8E8268222773E8C00B1EE31 /* ViewController.swift in Sources */,
+				A8FC533B22775B2C00642238 /* SplashScreenViewController.swift in Sources */,
 				A8E8268022773E8C00B1EE31 /* AppDelegate.swift in Sources */,
+				A8FC5339227754BA00642238 /* DetailViewController.swift in Sources */,
+				A8FC533D22775C3600642238 /* Reviews.swift in Sources */,
+				A8E8269422774BC300B1EE31 /* foodDetail.swift in Sources */,
+				A8E82692227745B600B1EE31 /* Food.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +448,7 @@
 		};
 		A8E8268F22773E9000B1EE31 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA2F7A784075F263CE6076D3 /* Pods-coffeeShop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +467,7 @@
 		};
 		A8E8269022773E9000B1EE31 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7901D2D27C601A9DEB39E4AD /* Pods-coffeeShop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
